@@ -1,0 +1,11 @@
+Project:¶
+Aggressive driving can have a very bad outcome. It can easily lead to a vehicular homicide because the driver was driving negligently. Aggressive driving includes speeding, and this greatly increases your risk of getting into an accident or getting a very serious ticket. Predicting the driving style behaviour will benefit Insurance company and transport authority as well as citizens.
+1.	Which evaluation matrix you will use and why?
+2.	Create an analytical and modelling framework to predict the driving style of each id categorizing into 1,2,3 and also obtain the actionable top 10 data insights (patterns) for “1” class using the tree-based algorithms.
+“1” indicates: “Aggressive”,
+“2” indicates:” Normal”,
+“3” indicates: “Vague” 
+Data:-
+Train data :- Train_Data
+Attribute Information: - AttributeInformation.pdf
+
