@@ -2,7 +2,7 @@
 """
 Created on Wed Feb 19 00:54:55 2020
 
-@author: Shaon
+@author: Shaon Bhatta Shuvo
 """
 # Importing the libraries
 import numpy as np
@@ -10,9 +10,9 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 # Importing the dataset
-driver = pd.read_csv('Train.csv')
-weather = pd.read_csv('Train_WeatherData.csv')
-travelling = pd.read_csv('Train_Vehicletravellingdata.csv')
+driver = pd.read_csv('Training_Data/Train.csv')
+weather = pd.read_csv('Training_Data/Train_WeatherData.csv')
+travelling = pd.read_csv('Training_Data/Train_Vehicletravellingdata.csv')
 data_temp = pd.merge(travelling,weather)
 data = pd.merge(data_temp,driver)
 print(data)
